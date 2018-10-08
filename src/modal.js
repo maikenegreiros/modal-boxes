@@ -21,22 +21,29 @@ export default function(menu, button, options = {}) {
         buttonClose.addEventListener('click', event => {
             event.preventDefault();
             event.stopPropagation();
-            menu.classList.remove(menuActiveClass);
-            menu.classList.add(menuInactiveClass);
-            button.classList.add(buttonActiveClass);
-            button.classList.remove(buttonInactiveClass);
+            close();
         })
     }
   
     document.body.addEventListener('click', () => {
-        menu.classList.remove(menuActiveClass);
-        menu.classList.add(menuInactiveClass);
-        button.classList.add(buttonActiveClass);
-        button.classList.remove(buttonInactiveClass);
+        close();
+    })
+
+    document.addEventListener("keyup", event => {
+        if (event.which === 27) {
+            close()
+        }
     })
   
     menu.addEventListener('click', event => {
         event.stopPropagation();
     })
+
+    function close() {
+        menu.classList.remove(menuActiveClass);
+        menu.classList.add(menuInactiveClass);
+        button.classList.add(buttonActiveClass);
+        button.classList.remove(buttonInactiveClass);
+    }
   }
   
