@@ -11,6 +11,8 @@ ModalBoxes(menu, btMenu)
 if you want to assign some custom css class to the button or the modal box, you can do as follows
 
 ```js
+import ModalBoxes from 'modal-boxes'
+
 const menu = document.querySelector('.menu')
 const btMenu = document.querySelector('.bt-menu')
 const options = {
