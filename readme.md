@@ -19,5 +19,5 @@ const options = {
     buttonActiveClass: "another-css-class",
     buttonInactiveClass: "again-another-css-class"
 }
-Menu(menu, btMenu, options)
+ModalBoxes(menu, btMenu, options)
 ```
