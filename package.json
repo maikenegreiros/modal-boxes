@@ -2,9 +2,9 @@
   "name": "modal-boxes",
   "version": "1.0.1",
   "description": "A simple JS script to open and close Modal Boxes. It's useful to menu bars as well",
-  "main": "dist/index.js",
+  "main": "src/modal.js",
   "scripts": {
-    "build": "webpack --production",
+    "build": "webpack",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [
@@ -17,12 +17,5 @@
     "email": "maike_jbe@hotmail.com",
     "homepage": "https://www.maikenegreiros.me"
   },
-  "license": "MIT",
-  "devDependencies": {
-    "@babel/core": "^7.1.2",
-    "@babel/preset-env": "^7.1.0",
-    "babel-loader": "^8.0.4",
-    "webpack": "^4.20.2",
-    "webpack-cli": "^3.1.2"
-  }
+  "license": "MIT"
 }
