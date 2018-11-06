@@ -1,6 +1,6 @@
 {
   "name": "modal-boxes",
-  "version": "1.1.3",
+  "version": "1.1.4",
   "description": "A simple JS script to open and close Modal Boxes. It's useful to menu bars as well",
   "main": "index.js",
   "scripts": {
