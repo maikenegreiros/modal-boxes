@@ -4,7 +4,7 @@
   "description": "A simple JS script to open and close Modal Boxes. It's useful to menu bars as well",
   "main": "index.js",
   "scripts": {
-    "build": "webpack --production",
+    "build": "./node_modules/@babel/cli/bin/babel.js src/modal.js -o index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [
