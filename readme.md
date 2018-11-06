@@ -1,4 +1,4 @@
-#Modal Boxes
+# Modal Boxes
 
 If your modal box is both opened and closed by the same button, you can do like the example below
 
